@@ -87,6 +87,11 @@
  ------- 3 buttons start  -------
  ------------------------------ */
 
+.container {
+    display: grid;
+    grid-template-columns: 312px, repeat(1, 1fr);
+}
+
 .aside {
     width: 312px;
     height: 312px;
@@ -126,6 +131,13 @@
 /* -----------------------------
  ------- 3 buttons end  -------
  ------------------------------ */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
+
 .blog {
     Width: 312px;
     Height: 362px;
@@ -175,3 +187,52 @@
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
+
+
+
+
+/* Footer section Start  */
+
+footer {
+    Width: 1600px;
+    Height: 444px;
+    background-color: #161616;
+}
+
+.goal {
+    Width: 95px;
+    Height: 60px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+
+
+}
+
+.goal>f1 {
+    margin-top: 130px;
+}
+
+hr {
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.last {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    color: #B9B9B9;
+
+    Width: 898px;
+    Height: 24px;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* Footer section end  */
